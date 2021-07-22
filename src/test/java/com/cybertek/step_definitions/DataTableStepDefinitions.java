@@ -26,6 +26,9 @@ public class DataTableStepDefinitions {
     public void user_entres_username_and_password_as_below(Map <String, String> loginInfo) {
         String username= loginInfo.get("username");
         libraryLogin.email.sendKeys(username);
+        String password= loginInfo.get("password");
+        libraryLogin.password.sendKeys(password);
+        libraryLogin.signInButton.click();
 
     }
     @Then("user should see title is something")

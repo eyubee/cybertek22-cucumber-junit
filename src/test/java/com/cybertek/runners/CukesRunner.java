@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         glue = "com/cybertek/step_definitions",
 
      //   tags= "@wip"    tags= "@librarian"  tags= "@regression or @smoke" tags= "@student"  tags= "@admin"  tags= "@all"
-        dryRun = true,
+        dryRun = false,
         tags= "@wip"
 
 )
