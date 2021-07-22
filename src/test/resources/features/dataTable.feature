@@ -9,3 +9,10 @@ Feature: Examples of Cucumber data table implementations
     | Strawberry |
     | Mango      |
     | Tomato     |
+  @wip
+    Scenario:  Library login example using data table
+      Given user is on the login page of library app
+      When user entres username and password as below
+      |username |librarian13@library.cm|
+      |password | 9rf6azdD             |
+      Then user should see title is something
