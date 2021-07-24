@@ -25,7 +25,7 @@ public class Hooks {
 
 
         System.out.println("teardown steps are being applied...");
-        Driver.closeDriver();
+
     }
     @BeforeStep
     public void setupStep(){
@@ -34,6 +34,7 @@ public class Hooks {
     @AfterStep
     public void aftrStep(){
         System.out.println("---teardown applying for each step");
+       // Driver.closeDriver();
     }
 
 }
