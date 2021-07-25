@@ -22,7 +22,7 @@ Feature: wikipedia search functionality
  When User types "Steve Jobs" in the wiki search box
  And User clicks wiki search button
  Then User sees "Steve Jobs" is in the main header
-@ScenarioOutline
+
   Scenario Template: Wikipedia Search Functionality Header Verification
     Given  User is on Wikipedia home page
     When User types "<searchValue>" in the wiki search box
