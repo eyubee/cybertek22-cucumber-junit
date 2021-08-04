@@ -32,7 +32,7 @@ Feature: wikipedia search functionality
 
     Examples: search terms we are going to use in this template
       | searchValue       | expectedMainHeader | expectedTitle     |
-      | Steve Jobs        | Steve Jobs         | Steve Jobs        |
+      | Steve Jobs        | Steve Jobs         | Steve Jobs      zz  |
       | Albert Einstein   | Albert Einstein    | Albert Einstein   |
       | James Bond        | James Bond         | James Bond        |
 #      | Eyerusalem Tefera | Eyerusalem Tefera  | Eyerusalem Tefera |
